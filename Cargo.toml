@@ -38,7 +38,7 @@ bench = false
 [features]
 default = ["std"]
 derive = ["parity-scale-codec-derive"]
-std = ["serde/std", "bitvec?/std", "byte-slice-cast/std", "chain-error"]
+std = ["serde", "bitvec?/std", "byte-slice-cast/std", "chain-error"]
 bit-vec = ["bitvec"]
 fuzz = ["std", "arbitrary"]
 
